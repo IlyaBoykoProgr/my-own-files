@@ -1,5 +1,6 @@
 sudo apt-get update
-sudo apt install vlc arduino ntfs-3g php ngnix qtcreator qt5-default
+sudo apt install vlc arduino php ngnix qtcreator qt5-default
+sudo apt-get upgrade
 wget https://download.teamviewer.com/download/linux/teamviewer-host_armhf.deb
 sudo apt-get install teamviewer-host_armhf.deb
 sudo teamviewer daemon enable
