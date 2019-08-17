@@ -7,22 +7,23 @@ Global {
   margin=0
   widthtype=percent
   width=100
-  height=52
+  height=51
   transparent=1
-  tintcolor=#000000
-  alpha=0
+  tintcolor=#a6a6a6
+  alpha=44
   autohide=0
-  heightwhenhidden=2
+  heightwhenhidden=0
   setdocktype=1
   setpartialstrut=1
   usefontcolor=0
   fontsize=12
   fontcolor=#ffffff
-  usefontsize=0
+  usefontsize=1
   background=0
   backgroundfile=/usr/share/lxpanel/images/background.png
-  iconsize=52
+  iconsize=46
   monitor=-1
+  align=center
 }
 Plugin {
   type=menu
@@ -70,10 +71,10 @@ Plugin {
     UseMouseWheel=1
     UseUrgencyHint=1
     FlatButton=0
-    MaxTaskWidth=1000
+    MaxTaskWidth=290
     spacing=1
     GroupedTasks=0
-    UseSmallerIcons=-1
+    UseSmallerIcons=0
     DisableUpscale=0
   }
 }
@@ -103,9 +104,9 @@ Plugin {
     NormalColor=#00ff00
     Warning1Color=#fff000
     Warning2Color=#ff0000
-    AutomaticLevels=1
-    Warning1Temp=140
-    Warning2Temp=145
+    AutomaticLevels=0
+    Warning1Temp=60
+    Warning2Temp=65
     AutomaticSensor=1
   }
 }
@@ -141,5 +142,7 @@ Plugin {
     ToggleOpt=grp:alt_shift_toggle
     KeepSysLayouts=0
     NoResetOpt=1
+    PerWinLayout=1
+    FlagSize=3
   }
 }
